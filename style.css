@@ -1,0 +1,17 @@
+/*
+ Theme Name: RoshanPress
+ Author: Your Name
+ Description: A basic WordPress theme named RoshanPress.
+ Version: 1.0
+*/
+
+/* Add your styles below */
+
+
+/* =====================HEADER===================== */
+/*  CSS for styling the logo */
+.site-branding img {
+    max-width: 100%;
+    height: auto;
+}
+
