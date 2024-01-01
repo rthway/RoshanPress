@@ -5,12 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php wp_title('|', true, 'right'); ?></title>
     <?php wp_head(); ?>
+    <link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/include/css/main.css"/>
 </head>
 <body <?php body_class(); ?>>
 
 <!-- Header Logo goes here -->
 <header id="masthead" class="site-header" role="banner">
-<div class="site-branding">
+
+<div class='site-branding'>
+    <div class="logo">
         <?php
         if (has_custom_logo()) {
             the_custom_logo();
@@ -33,6 +36,8 @@
         }
         ?>
     </div>
+    </div>
+    
 </header>
 
 </html>
